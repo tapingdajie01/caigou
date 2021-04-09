@@ -1,7 +1,7 @@
 <template>
     <div class="LoginDialog login">
         <div class="mar-center login-dialog" >
-            <div class="fz-md text-center dialog-title">欢迎使用仓储管理系统</div>
+            <div class="fz-md text-center dialog-title">欢迎使用采购数据分析系统</div>
 			
             <el-form :model="form">
                 <el-form-item label="用户名">

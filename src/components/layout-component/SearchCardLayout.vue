@@ -27,7 +27,7 @@
                                 icon="el-icon-search"
                                 @click.native="$emit('click-search')"
                                 :loading="loading"
-                        >查询
+                        >统计
                         </el-button>
                     </div>
                 </div>

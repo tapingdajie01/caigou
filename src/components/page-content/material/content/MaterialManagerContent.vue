@@ -100,7 +100,7 @@
 
                 <el-table-column
                         prop="safeNum"
-                        label="安全数量"
+                        label="数量"
                         sortable="custom"
                         width="100"
                 ></el-table-column>
@@ -113,10 +113,33 @@
                 >
                     <template slot-scope="{row}">{{ row.validDay || "永久有效"}}</template>
                 </el-table-column>
-
+  <el-table-column
+                        prop="validDay"
+                        label="供应商"
+                        sortable="custom"
+                        width="100"
+                >
+                    <template slot-scope="{row}">{{ row.validDay || "永久有效"}}</template>
+                </el-table-column>
+                  <el-table-column
+                        prop="validDay"
+                        label="采购单价"
+                        sortable="custom"
+                        width="100"
+                >
+                    <template slot-scope="{row}">{{ row.validDay || "永久有效"}}</template>
+                </el-table-column>
+                  <el-table-column
+                        prop="validDay"
+                        label="库存总数"
+                        sortable="custom"
+                        width="100"
+                >
+                    <template slot-scope="{row}">{{ row.validDay || "永久有效"}}</template>
+                </el-table-column>
                 <el-table-column
                         prop="remark"
-                        label="备注"
+                        label="产品描述"
                         width="160"
                 ></el-table-column>
 

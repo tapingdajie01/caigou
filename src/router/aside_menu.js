@@ -51,38 +51,38 @@ export default [
         path: '/BaseManager',
         component: () => import("@/components/page-content/user/UserManagerView.vue"),
         meta: {
-            title: '基础资料',
+            title: '采购统计',
             icon: 'iconfont icon-cubes'
         },
         children: [
-            {
-                path: '/MaterialManager',
-                component: () => import("@/components/page-content/material/MaterialManagerView.vue"),
-                meta: {
-                    title: '物料管理',
-                },
-            },
+            // {
+            //     path: '/MaterialManager',
+            //     component: () => import("@/components/page-content/material/MaterialManagerView.vue"),
+            //     meta: {
+            //         title: '物料管理',
+            //     },
+            // },
             {
                 path: '/ProductManager',
                 component: () => import("@/components/page-content/material/ProductManagerView.vue"),
                 meta: {
-                    title: '产品管理',
+                    title: '采购产品统计',
                 },
-            },
-            {
-                path: '/CompanyManager',
-                component: () => import("@/components/page-content/company/CompanyManagerView.vue"),
-                meta: {
-                    title: '合作方管理',
-                },
-            },
-            {
-                path: '/CategoryManager',
-                component: () => import("@/components/page-content/company/CategoryManagerView.vue"),
-                meta: {
-                    title: '分类字典管理',
-                },
-            },
+             },
+            // {
+            //     path: '/CompanyManager',
+            //     component: () => import("@/components/page-content/company/CompanyManagerView.vue"),
+            //     meta: {
+            //         title: '供应商管理',
+            //     },
+            // },
+            // {
+            //     path: '/CategoryManager',
+            //     component: () => import("@/components/page-content/company/CategoryManagerView.vue"),
+            //     meta: {
+            //         title: '分类字典管理',
+            //     },
+            // },
         ]
     },
 

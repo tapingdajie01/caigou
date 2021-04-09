@@ -1,7 +1,7 @@
 <template>
     <div class="DashBoardProductChart">
         <el-card shadow="always">
-            <div class="mb-xs">产品当前库存</div>
+            <div class="mb-xs">采购产品分类统计</div>
             <div>
                 <div class="" ref="chartBlock" style="height: 400px;"></div>
             </div>
