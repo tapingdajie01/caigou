@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>采购大数据</title>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="t_container">
+        <header class="t_h_bg">
+            <span>领导看板</span>
+        </header>
+        <main class="t_main">
+            <div class="t_box">
+                <header class="t_title">
+                    <span>本月采购额：</span>
+                    <span class="t_number" style="color: aquamarine;">230000.00</span>
+                </header>
+               <!-- <div class="t_list">
+                    <div class="t_min">订单量 <i></i></div>
+                    <div class="t_min">客流量 100 <i></i></div>
+                    <div class="t_min">转换率 8% <i class="down"></i></div>
+                </div> -->
+                <div id="chart_1" class="echart" style="width: 100%; height: 2.4rem;"></div>
+            </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span>分类采购统计</span>
+                </header>
+                <div id="chart_2" class="echart" style="width: 100%; height: 3rem;"></div>
+            </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span>年度采购额走势图</span>
+                </header>
+                <div id="chart_3" class="echart" style="width: 100%; height: 3rem;"></div>
+            </div>
+			 <div class="t_box">
+            <div class="tb" style="font-size: 10px;">
+          		<h3>库存情况</h3>
+          		<table class="table1">
+          			<tr style="height:30px;" class="tb_title"><td></td><td>2017/11/8</td><td>2017/11/15</td><td>2017/11/22</td><td>2017/11/29</td></tr>
+          				<td>家纺成品</td><td>87,892,687</td><td>82,954,627</td><td>75,825,942</td><td>80,094,867</td></tr>
+          			<tr><td>坯布</td><td>79,616,338</td><td>63,914,752</td><td>8,4783,826</td><td>9,8170,970</td></tr>
+          			<tr><td>印染布</td><td>93,435,263</td><td>80,879,546</td><td>72,900,346</td><td>95,863,826</td></tr>
+          			<tr><td>面纱</td><td>75,013,325</td><td>72,443,447</td><td>68,968,409</td><td>99,197,853</td></tr>
+          			<tr><td>原棉</td><td>64,657,032</td><td>95,932,747</td><td>67,671,029</td><td>75,813,436</td></tr>
+          			<tr><td>其他</td><td>64,549,296</td><td>81,638,306</td><td>70,066,027</td><td>63,719,823</td></tr>
+          			<tr><td>总计</td><td>755,0149,41</td><td>745,430,494</td><td>716,866,157</td><td>800,212,856</td></tr>
+          		</table>
+          	</div>
+          </div>
+		</main>
+    </div>
+</body>
+</html>

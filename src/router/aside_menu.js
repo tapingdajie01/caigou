@@ -3,7 +3,7 @@ export default [
         path: '/DashBoard',
         component: () => import('@/components/page-content/dashboard/DashBoardView.vue'),
         meta: {
-            title: '统计面板',
+            title: '领导面板',
             icon: 'iconfont icon-tachometer-alt'
         }
     },
