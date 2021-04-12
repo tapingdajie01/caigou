@@ -1,6 +1,6 @@
 <template>
     <div class="AppBackIndex flex-box h100p ">
-        <div class="flex-box flex-column overflow-h flex-shrink-off h100p trans "
+        <div class="flex-box flex-column overflow-h flex-shrink-off h100p trans " 
              :style="leftContainerStyle"
         >
             <div class="layout-title flex-box flex-shrink-off flex-center color-silver overflow-h">
@@ -12,9 +12,9 @@
             </div>
         </div>
         <div class="flex-box flex-grow flex-column overflow-h">
-            <div class="layout-header flex-shrink-off shadow-gray">
+            <!-- <div class="layout-header flex-shrink-off shadow-gray">
                 <header-nav></header-nav>
-            </div>
+            </div> -->
             <div class="layout-content flex-grow">
                 <div class="flex-box flex-column " style="height: 100%;">
                     <div class="flex-shrink-off" style="height: 5px;"></div>
@@ -61,7 +61,7 @@
 
     export default {
         name: "AppBackIndex",
-        components: {HeaderNav, AsideMenu},
+        components: {AsideMenu},
         props: {},
         data() {
             return {
@@ -86,7 +86,7 @@
         computed: {
             leftContainerStyle() {
                 return {
-                    'width': this.$store.state.asideIsExpend ? '260px' : '60px',
+                    'width': this.$store.state.asideIsExpend ? '160px' : '60px',
                 }
             },
 
