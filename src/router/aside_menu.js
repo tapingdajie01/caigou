@@ -7,6 +7,14 @@ export default [
             icon: 'iconfont icon-tachometer-alt'
         }
     },
+    {
+        path: '/ireportBoard',
+        component: () => import('@/components/page-content/caigouManage/Index.vue'),
+        meta: {
+            title: '采购管理',
+            icon: 'iconfont icon-tachometer-alt'
+        }
+    },
 
     {
         path: '/UserManager',

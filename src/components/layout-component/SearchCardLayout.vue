@@ -27,6 +27,12 @@
                                 icon="el-icon-search"
                                 @click.native="$emit('click-search')"
                                 :loading="loading"
+                        >查询
+                        </el-button>
+                        <el-button
+                                icon="el-icon-s-data"
+                                @click.native="$emit('click-tongji')"
+                                :loading="loading"
                         >统计
                         </el-button>
                     </div>
